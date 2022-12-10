@@ -53,7 +53,7 @@ function buildMetadata(sample) {
   });
 }
 
-////////////// BAR AND BUBBLE CHART SETUP ////////////
+// Bar and Bubble
 // 1. Create the buildCharts function.
 function buildCharts(sample) {
   // 2. Use d3.json to load and retrieve the samples.json file 
