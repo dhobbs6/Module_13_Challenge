@@ -97,7 +97,7 @@ function buildCharts(sample) {
     Plotly.newPlot("bar", barData, barLayout);
 
     
-    ///////////// BUBBLECHART ///////////////
+    // Bubble Chart Setup
     // 1. Create the trace for the bubble chart.
     var bubbleData = [{
       x: otuIds,
@@ -129,7 +129,7 @@ function buildCharts(sample) {
     Plotly.newPlot("bubble", bubbleData, bubbleLayout);
  
 
-   /////////// GAUGECHART ///////////////
+   //Gauge Chart Setup
     // 1. Create a variable that filters the metadata array for the object with the desired sample number.
     var metadataArray = data.metadata;
     var filterMetadata = metadataArray.filter(sampleObj => sampleObj.id == sample);
